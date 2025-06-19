@@ -217,23 +217,22 @@ const Experience = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span>Years of Experience</span>
-                  <span className="font-bold text-2xl">5+</span>
+                  <span className="font-bold text-2xl">1+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Projects Completed</span>
-                  <span className="font-bold text-2xl">50+</span>
+                  <span className="font-bold text-2xl">5+</span>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span>Happy Clients</span>
+              
                   <span className="font-bold text-2xl">25+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Code Commits</span>
-                  <span className="font-bold text-2xl">2000+</span>
+                  <span className="font-bold text-2xl">100+</span>
                 </div>
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </section>

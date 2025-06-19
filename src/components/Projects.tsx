@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ExternalLink, Github, Zap } from 'lucide-react';
+import InterestDrawer from './InterestDrawer';
 
 const Projects = () => {
+  const [drawerState, setDrawerState] = useState<{
+    isOpen: boolean;
+    type: 'photography' | 'stocks' | 'cooking' | null;
+  }>({
+    isOpen: false,
+    type: null
+  });
+
+  const openDrawer = (type: 'photography' | 'stocks' | 'cooking') => {
+    setDrawerState({ isOpen: true, type });
+  };
+
+  const closeDrawer = () => {
+    setDrawerState({ isOpen: false, type: null });
+  };
+
   const projects = [
     {
       title: "Methylation Pipeline Designing",
@@ -13,15 +30,6 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Stock Markets",
-      description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Vue.js", "Firebase", "Vuex", "CSS3"],
-      demoLink: "#",
-      githubLink: "#",
-      featured: false
-    },
-    {
       title: "Analytics Dashboard",
       description: "Real-time analytics dashboard with interactive charts, data visualization, and automated reporting capabilities.",
       image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -29,15 +37,6 @@ const Projects = () => {
       demoLink: "#",
       githubLink: "#",
       featured: true
-    },
-    {
-      title: "Photography",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["JavaScript", "API Integration", "CSS3", "HTML5"],
-      demoLink: "#",
-      githubLink: "#",
-      featured: false
     },
     {
       title: "Social Media Platform",
@@ -49,13 +48,37 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Cooking",
-      description: "Responsive portfolio website with modern design, smooth animations, and optimized performance.",
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      title: "Stock Markets",
+      description: "Algorithmic trading strategies and market analysis using statistical methods and machine learning for optimal portfolio management.",
+      image: "https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Python", "R", "TradingView", "Statistical Analysis"],
       demoLink: "#",
       githubLink: "#",
-      featured: false
+      featured: false,
+      isClickable: true,
+      clickAction: () => openDrawer('stocks')
+    },
+    {
+      title: "Photography",
+      description: "Capturing moments through creative lens work, specializing in nature, portraits, and street photography across Kerala's diverse landscapes.",
+      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Canon EOS R5", "Lightroom", "Photoshop", "Drone Photography"],
+      demoLink: "#",
+      githubLink: "#",
+      featured: false,
+      isClickable: true,
+      clickAction: () => openDrawer('photography')
+    },
+    {
+      title: "Cooking",
+      description: "Exploring culinary arts through traditional Kerala cuisine and fusion cooking, combining flavors and techniques from different cultures.",
+      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Traditional Recipes", "Fusion Techniques", "Spice Blending", "Fermentation"],
+      demoLink: "#",
+      githubLink: "#",
+      featured: false,
+      isClickable: true,
+      clickAction: () => openDrawer('cooking')
     }
   ];
 
@@ -159,7 +182,13 @@ const Projects = () => {
           <h3 className="text-3xl font-bold text-slate-800 text-center mb-12">Me Outside</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {otherProjects.map((project, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
+              <div 
+                key={index} 
+                className={`bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group ${
+                  project.isClickable ? 'cursor-pointer hover:scale-105' : ''
+                }`}
+                onClick={project.isClickable ? project.clickAction : undefined}
+              >
                 <div className="relative">
                   <img 
                     src={project.image} 
@@ -169,23 +198,39 @@ const Projects = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                     <div className="p-4 w-full">
                       <div className="flex gap-2">
-                        <a 
-                          href={project.demoLink}
-                          className="flex items-center gap-1 bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm hover:bg-white/30 transition-colors duration-200"
-                        >
-                          <ExternalLink size={14} />
-                          Demo
-                        </a>
-                        <a 
-                          href={project.githubLink}
-                          className="flex items-center gap-1 bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm hover:bg-white/30 transition-colors duration-200"
-                        >
-                          <Github size={14} />
-                          Code
-                        </a>
+                        {project.isClickable ? (
+                          <div className="flex items-center gap-1 bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">
+                            <ExternalLink size={14} />
+                            Explore
+                          </div>
+                        ) : (
+                          <>
+                            <a 
+                              href={project.demoLink}
+                              className="flex items-center gap-1 bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm hover:bg-white/30 transition-colors duration-200"
+                            >
+                              <ExternalLink size={14} />
+                              Demo
+                            </a>
+                            <a 
+                              href={project.githubLink}
+                              className="flex items-center gap-1 bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm hover:bg-white/30 transition-colors duration-200"
+                            >
+                              <Github size={14} />
+                              Code
+                            </a>
+                          </>
+                        )}
                       </div>
                     </div>
                   </div>
+                  {project.isClickable && (
+                    <div className="absolute top-4 right-4">
+                      <div className="bg-blue-500 text-white p-2 rounded-full opacity-80">
+                        <ExternalLink size={16} />
+                      </div>
+                    </div>
+                  )}
                 </div>
                 
                 <div className="p-6">
@@ -207,12 +252,25 @@ const Projects = () => {
                       </span>
                     )}
                   </div>
+                  
+                  {project.isClickable && (
+                    <div className="text-blue-600 text-sm font-medium">
+                      Click to explore more →
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
           </div>
         </div>
       </div>
+
+      {/* Interest Drawer */}
+      <InterestDrawer 
+        isOpen={drawerState.isOpen}
+        onClose={closeDrawer}
+        type={drawerState.type!}
+      />
     </section>
   );
 };

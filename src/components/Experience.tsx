@@ -19,16 +19,16 @@ const Experience = () => {
     },
     {
       title: "Project Intern",
-      company: "StartupXYZ",
-      location: "Remote",
-      period: "2020 - 2022",
-      description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create pixel-perfect implementations.",
+      company: "Department of Computational Biology and Bioinfomratics",
+      location: "Remote and On-Site",
+      period: "2021",
+      description: "Standardized a workflow for the isolation of extrachromosal DNA from leaf tissues.",
       achievements: [
-        "Delivered 15+ client projects on time",
-        "Reduced bug reports by 60%",
-        "Introduced automated testing practices"
+        "Proved that CTAB is preferable than SDS for plant samples",
+        "Experimented and submitted an analysis during 2021 COVID-19",
+        "Got experienced in handling precision samples"
       ],
-      technologies: ["Vue.js", "Python", "PostgreSQL", "Firebase"]
+      technologies: ["Genome extraction", "Spectrophotometry", "Electrophoresis", "PCR"]
     },
     {
       title: "Frontend Developer",

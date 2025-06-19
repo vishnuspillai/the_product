@@ -57,7 +57,7 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
             },
             {
               title: "Quantitative Research",
-              description: "Applying statistical methods to identify market inefficiencies and opportunities.",
+              description: "Applying statistical methods to identify market inefficiencies and opportunities for long term.",
               achievements: ["Long Term investments", "Market studies", "Data-driven insights"]
             },
              {

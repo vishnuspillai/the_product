@@ -29,8 +29,9 @@ const Hero = () => {
               NGS Specialised Bioinformatician and Biotechnologist
             </p>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              I craft exceptional digital experiences through clean code, thoughtful design, 
-              and cutting-edge technology, bridging the gap between Lab tables and Desktops. Let's build something amazing together.
+              We embark in providing NGS analysis experiences through clean code, thoughtful design, 
+              and cutting-edge technology, bridging the gap between Lab tables and Desktops. 
+              Let's build something amazing together.
             </p>
           </div>
 

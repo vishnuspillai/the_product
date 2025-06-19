@@ -5,13 +5,13 @@ const Skills = () => {
     {
       category: "Coding",
       skills: [
-        { name: "R", level: 70 },
+        { name: "R", level: 100 },
         { name: "Python", level: 90 },
         { name: "HTML5", level: 90 },
-        { name: "Tailwind CSS", level: 92 },
-         { name: "React", level: 90 },
+        { name: "Tailwind CSS", level: 60 },
+         { name: "React", level: 50 },
         { name: "TypeScript", level: 85 },
-        { name: "mySQL", level: 70 },
+        { name: "mySQL", level: 50 },
         { name: "Github", level: 90 }
       ],
       color: "blue"

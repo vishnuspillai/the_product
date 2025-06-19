@@ -4,9 +4,9 @@ import { ExternalLink, Github, Zap } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Methylation Pipeline Designing",
       description: "A full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include real-time inventory, advanced search, and responsive design.",
-      image: "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://geneticeducation.co.in/wp-content/uploads/2024/03/DNA-methylation-min.png?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       demoLink: "#",
       githubLink: "#",

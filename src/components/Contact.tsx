@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -62,7 +62,7 @@ const Contact = () => {
       icon: <Instagram size={24} />,
       label: "Instagram",
       url: "https://instagram.com/vishnuspillai_",
-      color: "hover:text-blue-400"
+      color: "hover:text-pink-600"
     }
   ];
 

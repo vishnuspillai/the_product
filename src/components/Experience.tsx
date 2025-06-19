@@ -180,7 +180,6 @@ const Experience = () => {
             </div>
             
   <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
               <div className="space-y-4">
                 <div>
                   <h4 className="font-bold text-slate-800">Masters of Arts in Public Administration</h4>
@@ -192,7 +191,6 @@ const Experience = () => {
             </div>
             
              <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
               <div className="space-y-4">
                 <div>
                   <h4 className="font-bold text-slate-800">Masters in Biotechnology</h4>
@@ -204,7 +202,6 @@ const Experience = () => {
             </div>
             
  <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
               <div className="space-y-4">
                 <div>
                   <h4 className="font-bold text-slate-800">bachelors in Biotechnology</h4>

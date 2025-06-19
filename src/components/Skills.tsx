@@ -16,11 +16,13 @@ const Skills = () => {
       color: "blue"
     },
     {
-      category: "Backend",
+      category: "NGS",
       skills: [
-        { name: "R", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "mySQL", level: 70 }
+        { name: "RNASeq", level: 90 },
+        { name: "DESeq2", level: 85 },
+        { name: "Minfi Methylation", level: 70 },
+        { name: "scRNASeq", level: 90 },
+        { name: "Seurat", level: 90 }
       ],
       color: "emerald"
     },

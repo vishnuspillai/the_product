@@ -62,7 +62,7 @@ const Projects = () => {
       title: "Photography",
       description: "Capturing moments through creative lens work, specializing in nature, portraits, and street photography across Kerala's diverse landscapes.",
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Canon EOS R5", "Lightroom", "Photoshop", "Drone Photography"],
+      technologies: ["Nikon 5200", "Lightroom", "Photoshop", "Drone Photography"],
       demoLink: "#",
       githubLink: "#",
       featured: false,

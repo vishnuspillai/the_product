@@ -53,12 +53,12 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
             {
               title: "Technical Analysis",
               description: "Using statistical methods and chart patterns to analyze market trends.",
-              achievements: ["Market trend analysis", "Pattern recognition", "Volatility modeling"]
+              achievements: ["Market trend analysis", "Pattern recognition", "Volume Studies","Moving Averages"]
             },
             {
               title: "Quantitative Research",
               description: "Applying statistical methods to identify market inefficiencies and opportunities.",
-              achievements: ["Research publications", "Market studies", "Data-driven insights"]
+              achievements: ["Long Term investments", "Market studies", "Data-driven insights"]
             },
              {
               title: "Algorithmic Trading",

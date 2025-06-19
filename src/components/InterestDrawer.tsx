@@ -49,11 +49,7 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
           subtitle: "Algorithmic trading and market analysis",
           description: "I combine my analytical skills from bioinformatics with financial markets, developing algorithmic trading strategies and conducting market research.",
           highlights: [
-            {
-              title: "Algorithmic Trading",
-              description: "Developing and backtesting automated trading strategies using Python and R.",
-              achievements: ["5+ trading algorithms", "Risk management systems", "Portfolio optimization"]
-            },
+           
             {
               title: "Technical Analysis",
               description: "Using statistical methods and chart patterns to analyze market trends.",
@@ -63,6 +59,11 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
               title: "Quantitative Research",
               description: "Applying statistical methods to identify market inefficiencies and opportunities.",
               achievements: ["Research publications", "Market studies", "Data-driven insights"]
+            },
+             {
+              title: "Algorithmic Trading",
+              description: "Developing and backtesting automated trading strategies using Python and R.",
+              achievements: ["5+ trading algorithms", "Risk management systems", "Portfolio optimization"]
             }
           ],
           tools: ["Python", "R", "TradingView", "MetaTrader", "Bloomberg Terminal"],

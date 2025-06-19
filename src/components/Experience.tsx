@@ -10,7 +10,7 @@ const Experience = () => {
       period: "2022 - Present",
       description: "Designing the preprocess pipeline for normalization and outlier detection in Methylated samples due to  High Altitude Hypoxia and HAPE Exposures.",
       achievements: [
-        "Improved application performance by 40%",
+        "Improved detection performance by 40%",
         "Got Exposed to Epigenetics",
         "Implemented DMR and SVD pipelines."
       ],

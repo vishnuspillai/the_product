@@ -173,6 +173,17 @@ const Experience = () => {
                 </div>
               </div>
             </div>
+            <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-slate-800">Bachelor of Computer Science</h4>
+                  <p className="text-slate-600">University of Technology</p>
+                  <p className="text-sm text-slate-500">2015 - 2019</p>
+                  <p className="text-sm text-slate-600 mt-1">Magna Cum Laude, GPA: 3.8/4.0</p>
+                </div>
+              </div>
+            </div>
 
             {/* Quick Stats */}
             <div className="bg-gradient-to-br from-blue-600 to-emerald-600 rounded-2xl p-6 text-white">

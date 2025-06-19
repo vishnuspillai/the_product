@@ -162,7 +162,7 @@ const Experience = () => {
             </div>
 
             {/* Education */}
-  <div className="bg-white rounded-2xl p-6 shadow-lg">
+  <div >
               <h1 className="text-xl font-bold text-slate-800 mb-6">Education</h1>
               <div className="space-y-4"></div>
             </div>

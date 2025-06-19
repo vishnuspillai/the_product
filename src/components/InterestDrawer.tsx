@@ -39,7 +39,7 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
             "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=400",
             "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=400"
           ],
-          equipment: ["Canon EOS R5", "24-70mm f/2.8L", "70-200mm f/2.8L", "Drone DJI Mini 3"]
+          equipment: ["Nikon 5200", "24-70mm f/2.8L", "70-200mm f/2.8L", "Nothing Phone 3a"]
         };
       
       case 'stocks':

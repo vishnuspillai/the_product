@@ -223,6 +223,9 @@ const Experience = () => {
                   <span>Projects Completed</span>
                   <span className="font-bold text-2xl">5+</span>
                 </div>
+                <div className="flex justify-between items-center">
+                  <span>Years of Exposure</span>
+                  <span className="font-bold text-2xl">5+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Code Commits</span>
@@ -230,7 +233,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-          
+          </div>
         </div>
       </div>
     </section>

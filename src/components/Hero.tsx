@@ -38,8 +38,8 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:scale-105">
-              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-              <Mail size={20} /></div>
+              <div className="animate-bounce">
+              <Mail size={20} />
               Get In Touch
               <div className="group-hover:translate-x-1 transition-transform duration-200">
                 →

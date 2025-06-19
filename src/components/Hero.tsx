@@ -52,7 +52,7 @@ const Hero = () => {
 
           {/* Scroll Indicator */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ArrowDown className="text-white/60" size={30} />
+            <ArrowDown className="text-white/60" size={24} />
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Experience = () => {
         "Implemented DMR and SVD pipelines."
         "Got exposure to designing a variant classification pipeline using ACMG for Cardiac Channellopathies."
       ],
-      technologies: ["RStudio", "Linux", "AWS"]
+      technologies: ["R", "Linux", "AWS"]
     },
     {
       title: "Project Intern",

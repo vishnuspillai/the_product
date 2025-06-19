@@ -19,7 +19,7 @@ const Experience = () => {
     },
     {
       title: "Project Intern",
-      company: "Department of Computational Biology and Bioinfomratics",
+      company: "Department of Computational Biology and Bioinformatics",
       location: "Remote and On-Site",
       period: "2021",
       description: "Standardized a workflow for the isolation of extrachromosal DNA from leaf tissues.",

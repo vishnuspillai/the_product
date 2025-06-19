@@ -24,7 +24,7 @@ const Hero = () => {
               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Vishnu S Pillai</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-200 max-w-3xl mx-auto">
-              Full-Stack Developer & Digital Innovator
+              NGS Specialised Bioinformatician and Biotechnologist
             </p>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
               I craft exceptional digital experiences through clean code, thoughtful design, 

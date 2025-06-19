@@ -204,7 +204,7 @@ const Experience = () => {
  <div className="bg-white rounded-2xl p-6 shadow-lg">
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-bold text-slate-800">bachelors in Biotechnology</h4>
+                  <h4 className="font-bold text-slate-800">Bachelors in Biotechnology</h4>
                   <p className="text-slate-600">University of Kerala</p>
                   <p className="text-sm text-slate-500">2016 - 2019</p>
                   <p className="text-sm text-slate-600 mt-1"> GPA: 7.022/10</p>

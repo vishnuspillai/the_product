@@ -164,14 +164,14 @@ const Experience = () => {
             {/* Education */}
             <div className="bg-white rounded-2xl p-6 shadow-lg">
               <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
-              <div className="space-y-4">
+              <div className="space-y-4"></div>
+              </div>
                 <div>
                   <h4 className="font-bold text-slate-800">Masters in Computational Biology and Bioinformatics in NGS</h4>
                   <p className="text-slate-600">University of Kerala</p>
                   <p className="text-sm text-slate-500">2023 - 2025</p>
                   <p className="text-sm text-slate-600 mt-1"> GPA: 9.13/10</p>
-                </div>
-              </div>
+                
             </div>
             
   <div className="bg-white rounded-2xl p-6 shadow-lg">

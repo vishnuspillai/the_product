@@ -30,7 +30,7 @@ const Hero = () => {
             </p>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
               I craft exceptional digital experiences through clean code, thoughtful design, 
-              and cutting-edge technology. Let's build something amazing together.
+              and cutting-edge technology, bridging the gap between Lab tables and Desktops. Let's build something amazing together.
             </p>
           </div>
 

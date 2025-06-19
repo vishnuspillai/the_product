@@ -68,8 +68,7 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
           tools: ["Python", "R", "TradingView", "MetaTrader", "Bloomberg Terminal"],
           strategies: ["Mean Reversion", "Momentum Trading", "Pairs Trading", "Options Strategies"],
           performance: {
-            "Total Returns": "15.2%",
-            "Sharpe Ratio": "1.8",
+            "Total Returns": "30% p.a.",
             "Max Drawdown": "8.5%",
             "Win Rate": "68%"
           }

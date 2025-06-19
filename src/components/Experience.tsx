@@ -13,6 +13,7 @@ const Experience = () => {
         "Improved detection performance by 40%",
         "Got Exposed to Epigenetics",
         "Implemented DMR and SVD pipelines."
+        "Got exposure to designing a variant classification pipeline using ACMG for Cardiac Channellopathies."
       ],
       technologies: ["RStudio", "Linux", "AWS"]
     },

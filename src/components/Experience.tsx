@@ -223,8 +223,6 @@ const Experience = () => {
                   <span>Projects Completed</span>
                   <span className="font-bold text-2xl">5+</span>
                 </div>
-              
-                  
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Code Commits</span>

@@ -7,9 +7,9 @@ const Projects = () => {
       title: "Methylation Pipeline Designing",
       description: "A full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include real-time inventory, advanced search, and responsive design.",
       image: "https://geneticeducation.co.in/wp-content/uploads/2024/03/DNA-methylation-min.png?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-      demoLink: "#",
-      githubLink: "#",
+      technologies: ["R", "Illumina iScan", "Illumina EPIC BeadChips"],
+      demoLink: "https://youtu.be/KYHBbEKap0A?si=pMeVn4m78ULa1PZm",
+      githubLink: "https://github.com/vishnuspillai/Methylation",
       featured: true
     },
     {

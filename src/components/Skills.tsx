@@ -2,21 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   const skillCategories = [
-    {
-      category: "Coding",
-      skills: [
-        { name: "R", level: 100 },
-        { name: "Python", level: 90 },
-        { name: "HTML5", level: 90 },
-        { name: "Tailwind CSS", level: 60 },
-         { name: "React", level: 50 },
-        { name: "TypeScript", level: 85 },
-        { name: "mySQL", level: 50 },
-        { name: "Github", level: 95 }
-      ],
-      color: "blue"
-    },
-    {
+        {
       category: "NGS and Bioinformatics",
       skills: [
         { name: "RNASeq", level: 90 },
@@ -32,6 +18,21 @@ const Skills = () => {
       ],
       color: "emerald"
     },
+    {
+      category: "Coding",
+      skills: [
+        { name: "R", level: 100 },
+        { name: "Python", level: 90 },
+        { name: "HTML5", level: 90 },
+        { name: "Tailwind CSS", level: 60 },
+         { name: "React", level: 50 },
+        { name: "TypeScript", level: 85 },
+        { name: "mySQL", level: 50 },
+        { name: "Github", level: 95 }
+      ],
+      color: "blue"
+    },
+
     {
       category: "Biotechnology",
       skills: [

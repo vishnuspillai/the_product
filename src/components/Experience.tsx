@@ -166,25 +166,49 @@ const Experience = () => {
               <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-bold text-slate-800">Bachelor of Computer Science</h4>
-                  <p className="text-slate-600">University of Technology</p>
-                  <p className="text-sm text-slate-500">2015 - 2019</p>
-                  <p className="text-sm text-slate-600 mt-1">Magna Cum Laude, GPA: 3.8/4.0</p>
+                  <h4 className="font-bold text-slate-800">Masters in Computational Biology and Bioinformatics in NGS</h4>
+                  <p className="text-slate-600">University of Kerala</p>
+                  <p className="text-sm text-slate-500">2023 - 2025</p>
+                  <p className="text-sm text-slate-600 mt-1"> GPA: 9.13/10</p>
                 </div>
               </div>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg">
+            
+  <div className="bg-white rounded-2xl p-6 shadow-lg">
               <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-bold text-slate-800">Bachelor of Computer Science</h4>
-                  <p className="text-slate-600">University of Technology</p>
-                  <p className="text-sm text-slate-500">2015 - 2019</p>
-                  <p className="text-sm text-slate-600 mt-1">Magna Cum Laude, GPA: 3.8/4.0</p>
+                  <h4 className="font-bold text-slate-800">Masters of Arts in Public Administration</h4>
+                  <p className="text-slate-600">Indira Gandhi National Open University</p>
+                  <p className="text-sm text-slate-500">2022 - 2024</p>
+                  <p className="text-sm text-slate-600 mt-1"> GPA: 6/10</p>
                 </div>
               </div>
             </div>
-
+            
+             <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-slate-800">Masters in Biotechnology</h4>
+                  <p className="text-slate-600">University of Kerala</p>
+                  <p className="text-sm text-slate-500">2019 - 2021</p>
+                  <p className="text-sm text-slate-600 mt-1"> GPA: 7.525/10</p>
+                </div>
+              </div>
+            </div>
+            
+ <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Education</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-slate-800">bachelors in Biotechnology</h4>
+                  <p className="text-slate-600">University of Kerala</p>
+                  <p className="text-sm text-slate-500">2016 - 2019</p>
+                  <p className="text-sm text-slate-600 mt-1"> GPA: 7.022/10</p>
+                </div>
+              </div>
+            </div>
             {/* Quick Stats */}
             <div className="bg-gradient-to-br from-blue-600 to-emerald-600 rounded-2xl p-6 text-white">
               <h3 className="text-xl font-bold mb-6">Quick Stats</h3>

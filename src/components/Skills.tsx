@@ -11,7 +11,8 @@ const Skills = () => {
         { name: "Tailwind CSS", level: 92 },
          { name: "React", level: 90 },
         { name: "TypeScript", level: 85 },
-        { name: "mySQL", level: 70 }
+        { name: "mySQL", level: 70 },
+        { name: "Github", level: 90 }
       ],
       color: "blue"
     },
@@ -24,6 +25,8 @@ const Skills = () => {
         { name: "scRNASeq", level: 90 },
         { name: "Seurat", level: 90 },
         { name: "AWS", level: 90 }
+        
+
 
       ],
       color: "emerald"

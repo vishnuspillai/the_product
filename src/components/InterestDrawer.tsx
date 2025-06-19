@@ -15,7 +15,7 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
           icon: <Camera className="text-blue-600" size={32} />,
           title: "Photography",
           subtitle: "Capturing moments through my lens",
-          description: "Photography is my creative outlet where I explore the world through different perspectives. From landscapes to portraits, I find joy in freezing moments in time.",
+          description: "Photography is my creative outlet where I explore the world through different perspectives. From landscapes to portraits, I find joy in freezing moments in time. I am experienced with Nikon and my personal phone, the Nothing Phone 3a",
           highlights: [
             {
               title: "Nature Photography",

@@ -15,10 +15,10 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="text-2xl font-bold">
-              <span className="text-blue-400">Your</span>Name
+              <span className="text-blue-400">Vishnu </span>S Pillai
             </div>
             <p className="text-slate-300 max-w-sm">
-              Full-Stack Developer passionate about creating exceptional digital experiences 
+              Bioinformatician passionate about creating exceptional digital experiences 
               that make a difference.
             </p>
           </div>
@@ -49,9 +49,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Let's Connect</h3>
             <div className="space-y-2 text-slate-300">
-              <p>hello@yourname.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>vishnuspillaires@gmail.com</p>
+              <p>+91 6238449438</p>
+              <p>Kerala, India</p>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Footer = () => {
           <div className="flex items-center gap-2 text-slate-300 mb-4 md:mb-0">
             <span>© {currentYear} Made with</span>
             <Heart className="text-red-400" size={16} fill="currentColor" />
-            <span>by Your Name</span>
+            <span>by Me</span>
           </div>
           
           <button

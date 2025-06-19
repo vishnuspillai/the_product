@@ -4,20 +4,20 @@ import { Calendar, MapPin, Award } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
+      title: "Project Intern",
+      company: "CSIR - Institute of Genomics and Integrative Biology",
+      location: "Mall Road, New Delhi, India",
       period: "2022 - Present",
-      description: "Leading development of scalable web applications serving 100k+ users. Architected microservices infrastructure and mentored junior developers.",
+      description: "Designing the preprocess pipeline for normalization and outlier detection in Methylated samples due to  High Altitude Hypoxia and HAPE Exposures.",
       achievements: [
         "Improved application performance by 40%",
-        "Led team of 5 developers",
-        "Implemented CI/CD pipelines"
+        "Got Exposed to Epigenetics",
+        "Implemented DMR and SVD pipelines."
       ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "TypeScript"]
+      technologies: ["RStudio", "Linux", "AWS"]
     },
     {
-      title: "Full-Stack Developer",
+      title: "Project Intern",
       company: "StartupXYZ",
       location: "Remote",
       period: "2020 - 2022",

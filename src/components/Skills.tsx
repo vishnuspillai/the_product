@@ -17,14 +17,15 @@ const Skills = () => {
       color: "blue"
     },
     {
-      category: "NGS",
+      category: "NGS and Bioinformatics",
       skills: [
         { name: "RNASeq", level: 90 },
         { name: "DESeq2", level: 85 },
-        { name: "Minfi Methylation", level: 70 },
-        { name: "scRNASeq", level: 90 },
-        { name: "Seurat", level: 90 },
-        { name: "AWS", level: 90 }
+        { name: "Minfi Methylation", level: 100 },
+        { name: "scRNASeq", level: 70 },
+        { name: "Seurat", level: 70 },
+        { name: "AWS", level: 60 },
+        { name: "GATK", level: 90 }
         
 
 

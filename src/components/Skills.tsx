@@ -12,7 +12,7 @@ const Skills = () => {
          { name: "React", level: 50 },
         { name: "TypeScript", level: 85 },
         { name: "mySQL", level: 50 },
-        { name: "Github", level: 90 }
+        { name: "Github", level: 95 }
       ],
       color: "blue"
     },

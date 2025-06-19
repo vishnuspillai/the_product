@@ -34,7 +34,8 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
             }
           ],
           gallery: [
-            "https://pin.it/1hvV7Udle?auto=compress&cs=tinysrgb&w=400",
+            "<iframe src="https://assets.pinterest.com/ext/embed.html?id=1103733821198468410" height="713" width="345" frameborder="0" scrolling="no" > </iframe> 
+        
             "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=400",
             "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=400",
             "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=400"

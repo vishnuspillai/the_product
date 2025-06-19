@@ -12,7 +12,7 @@ const Experience = () => {
       achievements: [
         "Improved detection performance by 40%",
         "Got Exposed to Epigenetics",
-        "Implemented DMR and SVD pipelines."
+        "Implemented DMR and SVD pipelines.",
         "Got exposure to designing a variant classification pipeline using ACMG for Cardiac Channellopathies."
       ],
       technologies: ["R", "Linux", "AWS"]

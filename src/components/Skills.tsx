@@ -22,16 +22,18 @@ const Skills = () => {
         { name: "DESeq2", level: 85 },
         { name: "Minfi Methylation", level: 70 },
         { name: "scRNASeq", level: 90 },
-        { name: "Seurat", level: 90 }
+        { name: "Seurat", level: 90 },
+        { name: "AWS", level: 90 }
+
       ],
       color: "emerald"
     },
     {
-      category: "Tools & Others",
+      category: "Biotechnology",
       skills: [
-        { name: "Docker", level: 70 },
-        { name: "AWS", level: 85 },
-        { name: "Git", level: 80}
+        { name: "PCR", level: 70 },
+        { name: "Spectrophotometry", level: 85 },
+        { name: "Molecular and Microbiology", level: 80}
       ],
       color: "orange"
     }

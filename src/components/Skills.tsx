@@ -36,9 +36,9 @@ const Skills = () => {
       skills: [
         { name: "PCR", level: 70 },
         { name: "Spectrophotometry", level: 85 },
-        { name: "Molecular and Microbiology", level: 80}
-        { name: "Phytochemistry", level: 90 }
-        { name: "Microscopy", level: 90 }
+        { name: "Molecular and Microbiology", level: 80},
+        { name: "Phytochemistry", level: 90 },
+        { name: "Microscopy", level: 90 },
         { name: "Buffer Systems", level: 90 }
       ],
       color: "orange"

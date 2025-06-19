@@ -13,7 +13,7 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Task Management App",
+      title: "SillySnakes",
       description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["Vue.js", "Firebase", "Vuex", "CSS3"],

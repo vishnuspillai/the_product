@@ -28,20 +28,20 @@ const Contact = () => {
     {
       icon: <Mail className="text-blue-600" size={24} />,
       title: "Email",
-      content: "hello@yourname.com",
-      link: "mailto:hello@yourname.com"
+      content: "vishnuspillaires@gmail.com",
+      link: "vishnuspillaires@gmail.com"
     },
     {
       icon: <Phone className="text-emerald-600" size={24} />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      content: "+91 6238449438",
+      link: "tel:+916238449438"
     },
     {
       icon: <MapPin className="text-orange-600" size={24} />,
       title: "Location",
-      content: "San Francisco, CA",
-      link: "#"
+      content: "Dept. of computational Biology & BiOinformatics, University of Kerala, Thiruvananthapuram, Kerala, India",
+      link: "https://maps.app.goo.gl/BojHduDg3pAwj4zUA"
     }
   ];
 
@@ -49,19 +49,19 @@ const Contact = () => {
     {
       icon: <Github size={24} />,
       label: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/vishnuspillai",
       color: "hover:text-slate-800"
     },
     {
       icon: <Linkedin size={24} />,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://linkedin.com/in/vishnuspillai04",
       color: "hover:text-blue-600"
     },
     {
-      icon: <Twitter size={24} />,
-      label: "Twitter",
-      url: "https://twitter.com/yourusername",
+      icon: <Instagram size={24} />,
+      label: "Instagram",
+      url: "https://instagram.com/vishnuspillai_",
       color: "hover:text-blue-400"
     }
   ];
@@ -75,7 +75,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-emerald-600 rounded-full mx-auto mb-8"></div>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Ready to bring your ideas to life? Let's discuss how we can work together to create something amazing.
+            Ready to bring your DNA to Codes that Speaks the Truth ? Let's discuss how we can work together to create something amazing.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
-                    placeholder="John Doe"
+                    placeholder=""
                   />
                 </div>
                 <div>

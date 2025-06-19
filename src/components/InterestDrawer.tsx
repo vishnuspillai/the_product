@@ -99,14 +99,14 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
             }
           ],
           specialties: [
-            "Fish Curry (Kerala Style)",
-            "Appam with Stew",
-            "Beef Fry",
-            "Puttu and Kadala",
-            "Fusion Pasta",
-            "Artisan Sourdough"
+            "Indian Artistry",
+            "South Indian Culinaries",
+            "Non Vegetarian Delicacies",
+            "Continental",
+            "Chinese",
+            "Italian Experiments"
           ],
-          techniques: ["Fermentation", "Spice Tempering", "Clay Pot Cooking", "Smoking", "Molecular Gastronomy"]
+          techniques: ["Fermentation", "Spice Tempering", "Air Fry", "Boiling", "Healthy Gastronomy"]
         };
       
       default:

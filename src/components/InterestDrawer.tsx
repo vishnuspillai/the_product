@@ -63,7 +63,7 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
              {
               title: "Algorithmic Trading",
               description: "Developing and backtesting automated trading strategies using Python and R.",
-              achievements: ["Learning Curve", "Risk management systems", "UPstox API"]
+              achievements: ["Learning Curve", "Risk management systems", "Upstox API"]
             }
           ],
           tools: ["Python", "R", "TradingView", "MetaTrader", "Bloomberg Terminal"],

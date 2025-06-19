@@ -40,7 +40,7 @@ const Hero = () => {
             <button className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:scale-105">
               <Mail size={20} />
               Get In Touch
-              <div className="group-hover:translate-x-1 transition-transform duration-200 animate-bounce">
+              <div className="group-hover:translate-x-1 transition-transform duration-200 animate-push">
                 →
               </div>
             </button>

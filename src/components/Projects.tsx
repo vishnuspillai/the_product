@@ -156,7 +156,7 @@ const Projects = () => {
 
         {/* Other Projects Grid */}
         <div>
-          <h3 className="text-3xl font-bold text-slate-800 text-center mb-12">Other Projects</h3>
+          <h3 className="text-3xl font-bold text-slate-800 text-center mb-12">Me Outside</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {otherProjects.map((project, index) => (
               <div key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group">

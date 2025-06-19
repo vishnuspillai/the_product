@@ -4,7 +4,7 @@ import { Calendar, MapPin, Award } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Project Intern",
+      title: "Project Trainee",
       company: "CSIR - Institute of Genomics and Integrative Biology",
       location: "Mall Road, New Delhi, India",
       period: "2022 - Present",
@@ -31,17 +31,17 @@ const Experience = () => {
       technologies: ["Genome extraction", "Spectrophotometry", "Electrophoresis", "PCR"]
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Agency Co",
-      location: "New York, NY",
-      period: "2019 - 2020",
-      description: "Created responsive web applications and optimized user experiences. Worked closely with UX designers to implement design systems.",
+      title: "Project Intern",
+      company: "University of Kerala",
+      location: "Kerala, India",
+      period: "2019",
+      description: "Comprehensive phytochemical analysis of Flaxseed tissues.",
       achievements: [
-        "Built 20+ responsive websites",
-        "Improved page load times by 50%",
-        "Established component library"
+        "Identified the antioxidant capability",
+        "Learned the influence of Omega3 acids from a plant source",
+        "Got hands on training in Microbiology and Fungal samples"
       ],
-      technologies: ["JavaScript", "CSS3", "SASS", "Webpack"]
+      technologies: ["Soxhlets", "Microbiology", "Biotechnology", "Agriculture"]
     }
   ];
 

@@ -30,9 +30,9 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Analytics Dashboard",
+      title: "Silly Snakes",
       description: "Real-time analytics dashboard with interactive charts, data visualization, and automated reporting capabilities.",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7__Y2xP50ls2rzLyPj_rcYmfdFI4ZrgaeFg&s?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "D3.js", "Python", "PostgreSQL"],
       demoLink: "#",
       githubLink: "#",

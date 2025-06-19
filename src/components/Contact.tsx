@@ -40,7 +40,7 @@ const Contact = () => {
     {
       icon: <MapPin className="text-orange-600" size={24} />,
       title: "Location",
-      content: "Dept. of computational Biology & BiOinformatics, University of Kerala, Thiruvananthapuram, Kerala, India",
+      content: "Dept. of computational Biology & Bioinformatics, University of Kerala, Thiruvananthapuram, Kerala, India",
       link: "https://maps.app.goo.gl/BojHduDg3pAwj4zUA"
     }
   ];

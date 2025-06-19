@@ -31,7 +31,7 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Weather App",
+      title: "Photography",
       description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["JavaScript", "API Integration", "CSS3", "HTML5"],
@@ -49,7 +49,7 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Portfolio Website",
+      title: "Cooking",
       description: "Responsive portfolio website with modern design, smooth animations, and optimized performance.",
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],

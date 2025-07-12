@@ -22,7 +22,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Methylation Pipeline Designing",
-      description: "A full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include real-time inventory, advanced search, and responsive design.",
+      description: "A full-stack solution built with R, Minfi, and ChAMP integration. Features include methylation scanning and data analysis, advanced DEG identification, and influence on Hypoxia.",
       image: "https://geneticeducation.co.in/wp-content/uploads/2024/03/DNA-methylation-min.png?auto=compress&cs=tinysrgb&w=800",
       technologies: ["R", "Illumina iScan", "Illumina EPIC BeadChips"],
       demoLink: "https://youtu.be/KYHBbEKap0A?si=pMeVn4m78ULa1PZm",
@@ -30,21 +30,21 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Silly Snakes",
+      title: "Single Cell Sequencing",
       description: "Real-time analytics dashboard with interactive charts, data visualization, and automated reporting capabilities.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7__Y2xP50ls2rzLyPj_rcYmfdFI4ZrgaeFg&s?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "D3.js", "Python", "PostgreSQL"],
+      image: "https://www.genengnews.com/wp-content/uploads/2019/07/SingleCellGenomics__Getty_1087306246_MeletiosVerras_SingleCellAnalyisis-1024x768.jpg",
+      technologies: ["R", "Seurat", "Platypus", "scRepertoire"],
       demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/vishnuspillai/MG-scRNAseq_BCR",
       featured: true
     },
     {
-      title: "Social Media Platform",
-      description: "Full-featured social platform with real-time messaging, content sharing, and advanced privacy controls.",
-      image: "https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Next.js", "GraphQL", "PostgreSQL", "Redis"],
+      title: "Stock Market Landscape and Prediction",
+      description: "Fully automated price prediction with real-time support and resistance analysis, moving average, RSI and MACD technicals.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6b6nY8f-8VB_EKAafmUB83d0eDA3dM_p6gg&s",
+      technologies: ["Jupyter Notebook", "Python"],
       demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/vishnuspillai/BullsandBears",
       featured: true
     },
     {

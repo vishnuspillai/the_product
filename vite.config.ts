@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/the_product/',
+  base: process.env.NODE_ENV === 'production' ? '/the_product/' : '/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],

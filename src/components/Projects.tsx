@@ -31,7 +31,7 @@ const Projects = () => {
     },
     {
       title: "Single Cell Sequencing",
-      description: "scRNASeq on Autoimmune disease, specifically focussed on B-Cells with clustering, data visualization with automated pipelines capable in seameless data analysis on no time.",
+      description: "scRNASeq on Autoimmune disease, specifically focussed on B-Cells with clustering, data visualization with automated pipelines capable in seameless data analysis in no time.",
       image: "https://www.genengnews.com/wp-content/uploads/2019/07/SingleCellGenomics__Getty_1087306246_MeletiosVerras_SingleCellAnalyisis-1024x768.jpg",
       technologies: ["R", "Seurat", "Platypus", "scRepertoire"],
       demoLink: "#",

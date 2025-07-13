@@ -35,7 +35,7 @@ const About = () => {
             
             <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
               <p>
-                I'm a passionate Next Generation Sequencing Specialist with over 5 years of exposure to Biotechnological training which enables me to bridge the gap between Scientists and Coders, that make a difference. My journey started with a curiosity about how things work in both the realms, which evolved into a love for building applications that solve not only the real-world problems but he problems arise due to the multidisciplinary naturein the life scinece field.
+                I'm a passionate Next Generation Sequencing Specialist with over 5 years of exposure to Biotechnological training which enables me to bridge the gap between Scientists and Coders, that make a difference. My journey started with a curiosity about how things work in both the realms, which evolved into a love for building applications that solve not only the real-world problems but the problems that arise due to the multidisciplinary nature in the life scinece field.
               </p>
               <p>
                 When I'm not coding, you'll find me exploring new technologies, contributing to 

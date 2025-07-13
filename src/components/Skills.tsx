@@ -11,8 +11,8 @@ const Skills = () => {
         { name: "Discovery Studio", level: 70 },
         { name: "Seurat", level: 70 },
         { name: "AWS", level: 60 },
-        { name: "GATK", level: 90 }
-        { name: "Structural Databases", level: 95 }
+        { name: "GATK", level: 90 },
+        { name: "Structural Databases", level: 95 },
         { name: "Functional Annotation", level: 95 }
 
 

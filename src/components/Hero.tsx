@@ -37,14 +37,17 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:scale-105">
+            <a 
+              href="#contact"
+              className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:scale-105"
+            >
               
               <Mail size={20} />
               Get In Touch
               <div className="group-hover:translate-x-1 transition-transform duration-200">
                 →
               </div>
-            </button>
+            </a>
             <button className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:bg-white/10">
               <Download size={20} />
               Download Resume

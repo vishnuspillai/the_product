@@ -8,11 +8,14 @@ const Skills = () => {
         { name: "RNASeq", level: 90 },
         { name: "DESeq2", level: 85 },
         { name: "Minfi Methylation", level: 100 },
-        { name: "scRNASeq", level: 70 },
+        { name: "Discovery Studio", level: 70 },
         { name: "Seurat", level: 70 },
         { name: "AWS", level: 60 },
         { name: "GATK", level: 90 }
-        
+        { name: "Structural Databases", level: 95 }
+        { name: "Functional Annotation", level: 95 }
+
+
 
 
       ],
@@ -23,12 +26,12 @@ const Skills = () => {
       skills: [
         { name: "R", level: 100 },
         { name: "Python", level: 90 },
+        { name: "Github", level: 95 },
         { name: "HTML5", level: 90 },
         { name: "Tailwind CSS", level: 60 },
-         { name: "React", level: 50 },
+        { name: "React", level: 50 },
         { name: "TypeScript", level: 85 },
-        { name: "mySQL", level: 50 },
-        { name: "Github", level: 95 }
+        { name: "MySQL", level: 50 }
       ],
       color: "blue"
     },
@@ -106,8 +109,8 @@ const Skills = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "JavaScript", "Python", "React","R", "TypeScript", 
-              "mySQL", "Docker", "AWS", "Git"
+              "R", "Python", "RNASeq", "scRNASeq", "ChIP", "Illumina EPIC Arrays","GitHub","AWS","React", "TypeScript", 
+              "MySQL", "Docker"
             ].map((tech, index) => (
               <span 
                 key={index}

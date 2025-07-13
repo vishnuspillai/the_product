@@ -117,8 +117,8 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
 
       {/* Instructions */}
       <div className="absolute top-6 left-6 text-white/70 text-sm">
-        <div>Press ESC to close</div>
-        {images.length > 1 && <div>Use arrow keys to navigate</div>}
+        <div></div>
+        {images.length > 1 && <div></div>}
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { X, Camera, TrendingUp, ChefHat, ExternalLink, Award, Calendar } from 'l
 import ImageViewer from './ImageViewer';
 
 interface DrawerProps {
-  isOpen: boolean;
+  isOpen: boolean; 
   onClose: () => void;
   type: 'photography' | 'stocks' | 'cooking';
 }

@@ -35,9 +35,9 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
           ],
           gallery: [
             "/20250320_114758.jpg?auto=compress&cs=tinysrgb&w=400",
-            "1000064961.jpg?auto=compress&cs=tinysrgb&w=400",
-            "IMG_20250308_144707.jpg?auto=compress&cs=tinysrgb&w=400",
-            "IMG_20250331_172039.jpg?auto=compress&cs=tinysrgb&w=400"
+            "/1000064961.jpg?auto=compress&cs=tinysrgb&w=400",
+            "/IMG_20250308_144707.jpg?auto=compress&cs=tinysrgb&w=400",
+            "/IMG_20250331_172039.jpg?auto=compress&cs=tinysrgb&w=400"
           ],
           equipment: ["Nikon 5200", "24-70mm f/2.8L", "70-200mm f/2.8L", "Nothing Phone 3a"]
         };

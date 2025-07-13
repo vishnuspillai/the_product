@@ -1,5 +1,6 @@
 import React from 'react';
 import { X, Camera, TrendingUp, ChefHat, ExternalLink, Award, Calendar } from 'lucide-react';
+import ImageViewer from './ImageViewer';
 
 interface DrawerProps {
   isOpen: boolean;
@@ -8,6 +9,42 @@ interface DrawerProps {
 }
 
 const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
+  const [imageViewer, setImageViewer] = React.useState<{
+    isOpen: boolean;
+    currentIndex: number;
+  }>({
+    isOpen: false,
+    currentIndex: 0
+  });
+
+  const openImageViewer = (index: number) => {
+    setImageViewer({ isOpen: true, currentIndex: index });
+  };
+
+  const closeImageViewer = () => {
+    setImageViewer({ isOpen: false, currentIndex: 0 });
+  };
+
+  const nextImage = () => {
+    const content = getDrawerContent();
+    if (content?.gallery) {
+      setImageViewer(prev => ({
+        ...prev,
+        currentIndex: (prev.currentIndex + 1) % content.gallery.length
+      }));
+    }
+  };
+
+  const previousImage = () => {
+    const content = getDrawerContent();
+    if (content?.gallery) {
+      setImageViewer(prev => ({
+        ...prev,
+        currentIndex: prev.currentIndex === 0 ? content.gallery.length - 1 : prev.currentIndex - 1
+      }));
+    }
+  };
+
   const getDrawerContent = () => {
     switch (type) {
       case 'photography':
@@ -160,12 +197,21 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
               <h3 className="text-xl font-bold text-slate-800 mb-4">Recent Work</h3>
               <div className="grid grid-cols-2 gap-4">
                 {content.gallery.map((image, index) => (
-                  <div key={index} className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-200">
+                  <div 
+                    key={index} 
+                    className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer group"
+                    onClick={() => openImageViewer(index)}
+                  >
                     <img 
                       src={image} 
                       alt={`Photography work ${index + 1}`}
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200 flex items-center justify-center">
+                      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">
+                        Click to enlarge
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -266,6 +312,18 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
           </div>
         </div>
       </div>
+
+      {/* Image Viewer Modal */}
+      {type === 'photography' && content?.gallery && (
+        <ImageViewer
+          isOpen={imageViewer.isOpen}
+          onClose={closeImageViewer}
+          images={content.gallery}
+          currentIndex={imageViewer.currentIndex}
+          onNext={nextImage}
+          onPrevious={previousImage}
+        />
+      )}
     </>
   );
 };

@@ -197,17 +197,17 @@ const InterestDrawer: React.FC<DrawerProps> = ({ isOpen, onClose, type }) => {
               <h3 className="text-xl font-bold text-slate-800 mb-4">Recent Work</h3>
               <div className="grid grid-cols-2 gap-4">
                 {content.gallery.map((image, index) => (
-                  <div 
+                  <div
                     key={index} 
-                    className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer group"
-                    onClick={() => openImageViewer(index)}
+                    className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 group relative"
                   >
                     <img 
                       src={image} 
                       alt={`Photography work ${index + 1}`}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer"
+                      onClick={() => openImageViewer(index)}
                     />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200 flex items-center justify-center">
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200 flex items-center justify-center pointer-events-none">
                       <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">
                         Click to enlarge
                       </div>

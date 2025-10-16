@@ -44,23 +44,6 @@ const Experience = () => {
     }
   ];
 
-  const certifications = [
-    {
-      name: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2023"
-    },
-    {
-      name: "React Advanced Patterns",
-      issuer: "Frontend Masters",
-      date: "2022"
-    },
-    {
-      name: "Node.js Application Developer",
-      issuer: "Node.js Foundation",
-      date: "2021"
-    }
-  ];
 
   return (
     <section id="experience" className="py-20 bg-slate-50">

@@ -11,12 +11,10 @@ const Hero = () => {
         <div className="space-y-8">
           {/* Profile Image */}
           <div className="mx-auto w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-emerald-500 p-1">
-            <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
-              <img
-                src="/image.png"
-                alt="Vishnu S Pillai"
-                className="w-28 h-28 rounded-full object-cover"
-              />
+            <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
+              <div className="w-28 h-28 rounded-full bg-gradient-to-r from-blue-500 to-emerald-500 flex items-center justify-center text-white text-2xl font-bold">
+                YN
+              </div>
             </div>
           </div>
 
@@ -26,35 +24,27 @@ const Hero = () => {
               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Vishnu S Pillai</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-200 max-w-3xl mx-auto">
-              NGS Specialised Bioinformatician and Biotechnologist
+              Full-Stack Developer & Digital Innovator
             </p>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              We embark in providing NGS analysis experiences through clean code, thoughtful design,
-              and cutting-edge technology, bridging the gap between Lab tables and Desktops.
-              Let's build something amazing together.
+              I craft exceptional digital experiences through clean code, thoughtful design, 
+              and cutting-edge technology. Let's build something amazing together.
             </p>
           </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
-              href="#contact"
-              className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:scale-105"
-            >
+            <button className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:scale-105">
               <Mail size={20} />
               Get In Touch
               <div className="group-hover:translate-x-1 transition-transform duration-200">
                 →
               </div>
-            </a>
-            <a
-              href="/resume.pdf"
-              download="Vishnu_S_Pillai_Resume.pdf"
-              className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:bg-white/10"
-            >
+            </button>
+            <button className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:bg-white/10">
               <Download size={20} />
               Download Resume
-            </a>
+            </button>
           </div>
 
           {/* Scroll Indicator */}

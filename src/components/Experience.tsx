@@ -51,17 +51,16 @@ const Experience = () => {
       date: "2023"
     },
     {
-      name: "Professional Scrum Master I",
-      issuer: "Scrum.org",
+      name: "React Advanced Patterns",
+      issuer: "Frontend Masters",
       date: "2022"
     },
     {
-      name: "React Developer Certification",
-      issuer: "Meta",
+      name: "Node.js Application Developer",
+      issuer: "Node.js Foundation",
       date: "2021"
     }
   ];
-
 
   return (
     <section id="experience" className="py-20 bg-slate-50">

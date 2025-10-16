@@ -48,10 +48,14 @@ const Hero = () => {
                 →
               </div>
             </a>
-            <button className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:bg-white/10">
+            <a
+              href="/resume.pdf"
+              download="Vishnu_S_Pillai_Resume.pdf"
+              className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 hover:bg-white/10"
+            >
               <Download size={20} />
               Download Resume
-            </button>
+            </a>
           </div>
 
           {/* Scroll Indicator */}

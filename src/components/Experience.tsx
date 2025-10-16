@@ -44,6 +44,23 @@ const Experience = () => {
     }
   ];
 
+  const certifications = [
+    {
+      name: "AWS Certified Solutions Architect",
+      issuer: "Amazon Web Services",
+      date: "2023"
+    },
+    {
+      name: "Professional Scrum Master I",
+      issuer: "Scrum.org",
+      date: "2022"
+    },
+    {
+      name: "React Developer Certification",
+      issuer: "Meta",
+      date: "2021"
+    }
+  ];
 
 
   return (
